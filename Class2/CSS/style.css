@@ -1,0 +1,62 @@
+a:link{
+    color: green;
+}
+a:visited{
+    color: red;
+}
+a{
+    text-decoration: none;
+}
+button{
+    height: 30px;
+    width: 30px;
+}
+h1:hover{
+    background-color: salmon;
+}
+
+h1:active{
+    color: slateblue;
+}
+
+input:focus{
+    background-color: yellow;
+}
+
+li:first-child{
+    color:gold;
+    background-color: indigo;
+}
+
+li:first-child,
+li:last-child{
+    color: yellow;
+    background-color:pink;
+}
+
+a[href^="https"]{
+    color: maroon;
+}
+
+a[href$="in"]{
+    background-color: green;
+}
+
+li:nth-child(3n + 3){
+    color: orange;
+    background-color: green;
+}
+
+li:nth-child(even){
+    color: orange;
+    background-color: green;
+}
+/* checking from bottom */
+li:nth-last-child(2n + 3){ 
+    color: purple;
+}
+
+/* ignores things that are in between */
+li:nth-of-type(2m + 3){
+    background-color: tomato;
+}

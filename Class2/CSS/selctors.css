@@ -1,0 +1,30 @@
+*{
+    font-size: 30px;
+}
+ul{
+    color: red;
+}
+
+p span{
+    color: orange;
+}
+
+#hello{
+    color: palevioletred;
+}
+
+.neela{
+    background-color: peru;
+}
+
+ul>li{
+    font-size: 10px;
+}
+
+li+li{
+    background-color: royalblue;
+}
+
+a[href]{
+    background-color: salmon;
+}
