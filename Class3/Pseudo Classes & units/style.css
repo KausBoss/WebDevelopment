@@ -1,0 +1,49 @@
+input:enabled{
+    background-color: yellow;
+}
+
+input:disabled{
+    background-color: green;
+}
+
+input[type="radio"]:checked+label{
+    font-size: 30px;
+}
+/* pseudo class - enabled , disables, checked */
+
+/* pseudo elements */
+p::first-line{
+    color: hotpink;
+}
+p::first-letter{
+    font-size: 100px;
+}
+/* adding phone symbol */
+
+.phone::before{
+    content: '\260E';
+}
+
+.phone::after{
+    /* content: url(https://www.in-astrology.com/img/welcomes/tarot.jpg); */
+}
+/* size units */
+
+p{
+    font-size: 3ex;
+    /* ex is relative unit */
+}
+
+.hell{
+    font-size: 1em;
+    /* relative to parent who's size has been set manually*/
+}
+
+.hell{
+    font-size: inherit;
+    /* inherits the sie of parent */
+}
+.hell{
+    font-size: initial;
+    /* sabse pehla font size */
+}

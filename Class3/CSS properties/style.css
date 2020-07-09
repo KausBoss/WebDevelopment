@@ -1,0 +1,22 @@
+ p{
+    white-space: nowrap;
+    overflow: scroll;
+    text-overflow: ellipsis;
+}
+/* add dots at the end and when i hover it removes dots */
+p:hover{
+    overflow: scroll;
+    text-overflow: clip;
+}
+div{
+    width: 300px;
+} 
+
+div{
+    border: 2px solid black;
+    margin: 10px;
+    display: inline-block;
+    width: 80px;
+    min-width: 180px;
+    /* isse chota nahi hoga */
+}
