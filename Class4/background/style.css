@@ -1,0 +1,10 @@
+.div{
+    background-color: blue;
+    height: 600px;
+    width: 1000px;
+    /* background-repeat: round; */
+    /* background-size: cover; */
+    /* background-position: 20% 30%; */
+}
+
+/* Read about background attachment */

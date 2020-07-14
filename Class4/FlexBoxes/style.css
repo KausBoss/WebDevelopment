@@ -1,0 +1,15 @@
+.container{
+    width: 1200px;
+    height: 700px;
+    background-color: green;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+}
+div{
+    height: 70px;
+    width: 70px;
+    background-color:yellow;
+    margin: 10px;
+}
