@@ -1,0 +1,14 @@
+.div{
+    height: 300px;
+    width: 300px;
+    background-color:black;
+    transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: cubic-bezier(1, 0, 0, 1);
+}
+.div:hover{
+    height: 300px;
+    width: 300px;
+    background-color: yellow;
+    border-radius: 50%;
+}
