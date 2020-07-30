@@ -47,7 +47,7 @@ let B = [ 1, 31, 114, 22, 65, 17, 38, 54, 41 ];
 
 B.sort((a, b) => a - b);
 //for descending write b-a
-// It uses insertion sort for small array
+// It uses insertion sort for bsmall array
 // ans uses merge sort for large arrays
 
 console.log(B);
