@@ -1,3 +1,4 @@
+//example of curry function
 function add(x) {
 	if (!x) {
 		return x;
@@ -18,3 +19,4 @@ console.log(add(1)(2)(3)(4)(5)(6)(7)(8)());
 console.log(add(1)(2)(3)(4)(5)(6)(7)());
 console.log(add(1)(2)(3)(4)(5)(6)());
 console.log(add(1)(2)(3)(4)(5)());
+console.log(add(1)());
