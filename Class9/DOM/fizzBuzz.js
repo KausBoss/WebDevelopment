@@ -8,17 +8,21 @@ btn.onclick = function() {
 	let x = inp.value;
 	x = parseInt(x);
 	// list.innerHTML = '';
-	let t = '';
+	// let t = '';
 	for (let i = 1; i <= x; i++) {
-		if (i % 15 == 0) {
-			t += '<li>FizzBuzz</li>';
-		} else if (i % 3 == 0) {
-			t += '<li>Fizz</li>';
-		} else if (i % 5 == 0) {
-			t += '<li>Buzz</li>';
-		} else {
-			t += `<li>${i}</li>`;
+		let str = '';
+		if (i % 3 == 0) {
+			str += 'Fizz';
 		}
+		if (i % 5 == 0) {
+			str += 'Buzz';
+		}
+		if (str == '') {
+			str += i;
+		}
+		let li = document.createElement('li');
+		li.innerText = str;
+		list.appendChild(li);
 	}
-	list.innerHTML += t;
+	// list.innerHTML += t;
 };
