@@ -14,14 +14,6 @@ app.get('/todo', (req, res) => {
 	res.send(todo);
 });
 
-// app.get('/',(req,res)=>{
-//     res.sendFile(__dirname + '/index.html')
-// })
-
-// app.get('/app.js',(req,res)=>{
-//     res.send('There! we are again!')
-// })
-
 app.get('/js', (req, res) => {
 	res.send('<script>console.log("Hello")</script>');
 });
