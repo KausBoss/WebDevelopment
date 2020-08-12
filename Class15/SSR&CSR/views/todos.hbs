@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>SSR Todo List</h1>
+    <form method="POST" action="/todo">
+        <input type="text" name="name">
+        <input type="number" name="priority">
+        <button type="submit">Click Me</button>
+
+    </form>
+    <ul id="list">
+        {{#each todo as |x|}}
+            <li>{{x.id}} - {{x.name}}</li>
+        {{/each}}
+    </ul>
+</body>
+</html>
